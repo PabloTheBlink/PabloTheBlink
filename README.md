@@ -16,6 +16,8 @@ Puedes crear listas de tareas, personales o proyectos, y el sistema de inteligen
 
 ![Red neuronal de Planner en base a tus tareas realizadas](planner.png)
 
+Red neuronal de Planner en base a tus tareas realizadas
+
 ## ScopeJS
 
 ScopeJS es una librería sencilla que permite crear componentes reactivos en JavaScript vanilla. Con ScopeJS, puedes desarrollar aplicaciones web con una arquitectura basada en componentes, lo que facilita la organización y mantenimiento del código.
@@ -23,6 +25,8 @@ ScopeJS es una librería sencilla que permite crear componentes reactivos en Jav
 ScopeJS ofrece una API simple para la creación de componentes reutilizables. El componente básico se define utilizando la función Component, que acepta un objeto de configuración con opciones como el nombre de la etiqueta HTML asociada al componente, un controlador para la lógica del componente y una función de renderizado.
 
 ![Rendimiento de una aplicación hecha en ScopeJS](scopejs-speed-test.png)
+
+Rendimiento de una aplicación hecha en ScopeJS
 
 ---
 
