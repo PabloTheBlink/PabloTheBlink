@@ -1,4 +1,4 @@
-# ¡Hola! 👋 Soy Pablo Martínez
+# ¡Hola! 👋 Soy Pablo
 
 Soy un programador senior con amplia experiencia en desarrollo de software, especializado en **JavaScript** y **PHP**. Me apasiona construir aplicaciones eficientes y escalables, y tengo un fuerte enfoque en el desarrollo de soluciones que resuelvan problemas reales.
 
