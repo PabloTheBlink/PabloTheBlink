@@ -1,16 +1,19 @@
-## Hi there 👋
+# ¡Hola! 👋 Soy Pablo Martínez
 
-<!--
-**PabloTheBlink/PabloTheBlink** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Soy un programador senior con amplia experiencia en desarrollo de software, especializado en **JavaScript** y **PHP**. Me apasiona construir aplicaciones eficientes y escalables, y tengo un fuerte enfoque en el desarrollo de soluciones que resuelvan problemas reales.
 
-Here are some ideas to get you started:
+## 🛠 Tecnologías y Herramientas
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Lenguajes:** JavaScript, PHP, HTML, CSS
+- **Frameworks:** React, Angular, Vue.js, Laravel, Symfony
+- **Bases de Datos:** MySQL, PostgreSQL, MongoDB
+- **Herramientas de Desarrollo:** Git, Docker, Webpack, npm, pnpm
+- **Otros:** RESTful APIs, GraphQL, microservicios, CI/CD
+
+## 📫 Conectemos
+
+- **[Instagram](https://www.instagram.com/pablotheblink)**
+- **[LinkedIn](https://www.linkedin.com/in/pablo-mart%C3%ADnez-san-jos%C3%A9-9bb24215a/)**
+- **[Portfolio](https://pablomsj.com)**
+
+¡Estoy emocionado de conectar con otros desarrolladores y contribuir a proyectos interesantes!
