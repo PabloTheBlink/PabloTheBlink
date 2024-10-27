@@ -14,7 +14,7 @@ Planner es un planificador de tareas que utiliza inteligencia artificial para ay
 
 Puedes crear listas de tareas, personales o proyectos, y el sistema de inteligencia artificial te proporcionará sugerencias personalizadas sobre cómo gestionar tu tiempo de la mejor manera.
 
-![Red neuronal de Planner en base a tus tareas realizadas](https://pablomsj.com/assets/img/planner.webp)
+![Red neuronal de Planner en base a tus tareas realizadas](planner.png)
 
 ## ScopeJS
 
@@ -22,7 +22,7 @@ ScopeJS es una librería sencilla que permite crear componentes reactivos en Jav
 
 ScopeJS ofrece una API simple para la creación de componentes reutilizables. El componente básico se define utilizando la función Component, que acepta un objeto de configuración con opciones como el nombre de la etiqueta HTML asociada al componente, un controlador para la lógica del componente y una función de renderizado.
 
-![Rendimiento de una aplicación hecha en ScopeJS](https://pablomsj.com/assets/img/scopejs-speed-test.webp)
+![Rendimiento de una aplicación hecha en ScopeJS](scopejs-speed-test.png)
 
 ---
 
