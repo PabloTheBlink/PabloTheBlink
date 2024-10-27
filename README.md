@@ -1,6 +1,28 @@
-# ¡Hola! 👋 Soy Pablo
+¡Hola! 👋 Soy Pablo
+
+---
 
 **Desarrollador Senior Fullstack** con más de 6 años de experiencia en **JavaScript** y **PHP**, especializado en soluciones escalables y centradas en resolver problemas reales. Estoy abierto a oportunidades de desarrollo fullstack y roles de liderazgo.
+
+---
+
+# A destacar
+
+## Planner
+
+Planner es un planificador de tareas que utiliza inteligencia artificial para ayudarte a organizar tu tiempo de manera más eficiente.
+
+Puedes crear listas de tareas, personales o proyectos, y el sistema de inteligencia artificial te proporcionará sugerencias personalizadas sobre cómo gestionar tu tiempo de la mejor manera.
+
+![Red neuronal de Planner en base a tus tareas realizadas](https://pablomsj.com/assets/img/planner.webp)
+
+## ScopeJS
+
+ScopeJS es una librería sencilla que permite crear componentes reactivos en JavaScript vanilla. Con ScopeJS, puedes desarrollar aplicaciones web con una arquitectura basada en componentes, lo que facilita la organización y mantenimiento del código.
+
+ScopeJS ofrece una API simple para la creación de componentes reutilizables. El componente básico se define utilizando la función Component, que acepta un objeto de configuración con opciones como el nombre de la etiqueta HTML asociada al componente, un controlador para la lógica del componente y una función de renderizado.
+
+![Rendimiento de una aplicación hecha en ScopeJS](https://pablomsj.com/assets/img/scopejs-speed-test.webp)
 
 ---
 
