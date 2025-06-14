@@ -1,4 +1,4 @@
-# ¡Ey! 👋 Soy Pablo Martínez (alias "The Blink")
+# ¡Ey! 👋 Soy Pablo Martínez
 
 ---
 
