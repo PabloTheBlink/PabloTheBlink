@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Pablo Martínez - Desarrollador Full Stack | +7 años experiencia | Java, PHP, Angular</title>
+    <meta name="description" content="Desarrollador Full Stack con +7 años de experiencia en Java, PHP, SQL, SpringBoot, Laravel y Angular. Especialista en desarrollo web, aplicaciones móviles y liderazgo de equipos tecnológicos." />
+    <meta name="keywords" content="desarrollador full stack, programador, Java, PHP, SQL, SpringBoot, Laravel, Angular, desarrollo web, aplicaciones móviles, líder técnico, APIs REST" />
+    <meta name="author" content="Pablo Martínez San José" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://pablomsj.com" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pablomsj.com" />
+    <meta property="og:title" content="Pablo Martínez - Desarrollador Full Stack" />
+    <meta property="og:description" content="Desarrollador Full Stack con +7 años de experiencia. Especialista en Java, PHP, Angular y liderazgo de equipos tecnológicos." />
+    <meta property="og:image" content="https://pablomsj.com/assets/img/developer-1.webp" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://pablomsj.com" />
+    <meta property="twitter:title" content="Pablo Martínez - Desarrollador Full Stack" />
+    <meta property="twitter:description" content="Desarrollador Full Stack con +7 años de experiencia. Especialista en Java, PHP, Angular y liderazgo de equipos tecnológicos." />
+    <meta property="twitter:image" content="https://pablomsj.com/assets/img/developer-1.webp" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pablo Martínez San José",
+        "alternateName": "Pablo MSJ",
+        "jobTitle": "Desarrollador Full Stack",
+        "description": "Desarrollador Full Stack con más de 7 años de experiencia en tecnologías como Java, PHP, SQL y frameworks como SpringBoot, Laravel y Angular",
+        "url": "https://pablomsj.com",
+        "sameAs": ["https://www.linkedin.com/in/pablo-martínez-san-josé-9bb24215a", "https://github.com/PabloTheBlink"],
+        "knowsAbout": ["JavaScript", "Java", "PHP", "SQL", "Angular", "SpringBoot", "Laravel", "HTML5", "CSS3", "Git", "API REST", "React", "Next.js", "Desarrollo Web", "Desarrollo Móvil", "Liderazgo de Equipos", "Gestión de Proyectos"],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Desarrollador Full Stack",
+          "occupationLocation": "España",
+          "skills": "Java, PHP, SQL, JavaScript, Angular, SpringBoot, Laravel"
+        }
+      }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter", "sans-serif"],
+            },
+            colors: {
+              primary: "#3b82f6",
+              secondary: "#8b5cf6",
+              accent: "#f59e0b",
+              dark: "#0f172a",
+              "dark-light": "#1e293b",
+              "dark-lighter": "#334155",
+            },
+            animation: {
+              "fade-in": "fadeIn 0.8s ease-out",
+              "slide-up": "slideUp 0.8s ease-out",
+              "slide-down": "slideDown 0.8s ease-out",
+              "scale-in": "scaleIn 0.6s ease-out",
+              float: "float 6s ease-in-out infinite",
+              "pulse-slow": "pulse 3s infinite",
+              "spin-slow": "spin 8s linear infinite",
+              "bounce-slow": "bounce 2s infinite",
+              glow: "glow 2s ease-in-out infinite alternate",
+            },
+            keyframes: {
+              fadeIn: {
+                "0%": { opacity: "0", transform: "translateY(20px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+              slideUp: {
+                "0%": { opacity: "0", transform: "translateY(60px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+              slideDown: {
+                "0%": { opacity: "0", transform: "translateY(-60px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+              scaleIn: {
+                "0%": { opacity: "0", transform: "scale(0.8)" },
+                "100%": { opacity: "1", transform: "scale(1)" },
+              },
+              float: {
+                "0%, 100%": { transform: "translateY(0px) rotate(0deg)" },
+                "50%": { transform: "translateY(-20px) rotate(5deg)" },
+              },
+              glow: {
+                "0%": { boxShadow: "0 0 20px rgba(59, 130, 246, 0.5)" },
+                "100%": { boxShadow: "0 0 40px rgba(59, 130, 246, 0.8)" },
+              },
+            },
+            backdropBlur: {
+              xs: "2px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      * {
+        font-family: "Inter", sans-serif;
+      }
+
+      :root {
+        --primary-color: #3b82f6;
+      }
+
+      .bg-mesh {
+        background: radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.3) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.3) 0%, transparent 50%), radial-gradient(circle at 40% 80%, rgba(245, 158, 11, 0.2) 0%, transparent 50%), linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+      }
+
+      .glass-card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      }
+
+      .glass-nav {
+        background: rgba(15, 23, 42, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .text-gradient {
+        background: linear-gradient(135deg, #3b82f6, #8b5cf6, #f59e0b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .text-gradient-secondary {
+        background: linear-gradient(135deg, #06b6d4, #3b82f6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .hover-glow {
+        transition: all 0.3s ease;
+      }
+
+      .hover-glow:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2), 0 0 0 1px rgba(59, 130, 246, 0.1);
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary:hover {
+        background: linear-gradient(135deg, #1d4ed8, #1e40af);
+        box-shadow: 0 8px 25px rgba(59, 130, 246, 0.6);
+        transform: translateY(-2px);
+      }
+
+      .btn-secondary {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        transition: all 0.3s ease;
+      }
+
+      .btn-secondary:hover {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+        border-color: rgba(255, 255, 255, 0.3);
+        transform: translateY(-2px);
+      }
+
+      .skill-bar {
+        background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+        border-radius: 10px;
+        height: 8px;
+        transition: all 1s ease-out;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .skill-bar::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+        animation: shine 2s infinite;
+      }
+
+      @keyframes shine {
+        0% {
+          left: -100%;
+        }
+        100% {
+          left: 100%;
+        }
+      }
+
+      .floating-shape {
+        position: absolute;
+        border-radius: 50%;
+        opacity: 0.1;
+        animation: float 20s ease-in-out infinite;
+      }
+
+      .floating-shape:nth-child(1) {
+        width: 80px;
+        height: 80px;
+        background: #3b82f6;
+        top: 20%;
+        left: 10%;
+        animation-delay: 0s;
+      }
+
+      .floating-shape:nth-child(2) {
+        width: 120px;
+        height: 120px;
+        background: #8b5cf6;
+        top: 60%;
+        right: 10%;
+        animation-delay: 7s;
+      }
+
+      .floating-shape:nth-child(3) {
+        width: 60px;
+        height: 60px;
+        background: #f59e0b;
+        bottom: 20%;
+        left: 20%;
+        animation-delay: 3s;
+      }
+
+      .particle {
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        background: #3b82f6;
+        border-radius: 50%;
+        animation: particle 15s linear infinite;
+      }
+
+      @keyframes particle {
+        0% {
+          transform: translateY(100vh) translateX(0px) scale(0);
+          opacity: 0;
+        }
+        10% {
+          opacity: 1;
+        }
+        90% {
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-100px) translateX(100px) scale(1);
+          opacity: 0;
+        }
+      }
+
+      .section-divider {
+        height: 2px;
+        background: linear-gradient(90deg, transparent, #3b82f6, transparent);
+        margin: 4rem 0;
+        opacity: 0.3;
+      }
+
+      .tech-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #3b82f6;
+        transition: all 0.3s ease;
+      }
+
+      .tech-card:hover .tech-icon {
+        transform: scale(1.2) rotateY(360deg);
+        color: #f59e0b;
+      }
+
+      @media (max-width: 768px) {
+        .glass-card {
+          backdrop-filter: blur(10px);
+        }
+      }
+
+      /* Prevenir zoom en iOS */
+      body,
+      input,
+      textarea,
+      select,
+      button {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+      }
+
+      input,
+      textarea,
+      select {
+        -webkit-user-select: text;
+        user-select: text;
+      }
+
+      /* Estilos para menú móvil */
+      #menu-btn {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+      }
+
+      #menu-btn svg {
+        width: 24px;
+        height: 24px;
+        stroke: #fff;
+        transition: all 0.3s ease;
+      }
+
+      .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: rgba(15, 23, 42, 0.95);
+        backdrop-filter: blur(20px);
+        border-radius: 0.5rem;
+        overflow: hidden;
+        z-index: 50;
+        min-width: 200px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      }
+
+      .mobile-menu.active {
+        display: block;
+        animation: slideDown 0.3s ease-out;
+      }
+
+      .mobile-menu a {
+        display: block;
+        padding: 1rem 1.5rem;
+        color: #fff;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      .mobile-menu a:last-child {
+        border-bottom: none;
+      }
+
+      .mobile-menu a:hover {
+        background: rgba(59, 130, 246, 0.2);
+        padding-left: 2rem;
+      }
+
+      @media (max-width: 768px) {
+        #menu-btn {
+          display: flex;
+        }
+
+        .hidden {
+          display: none !important;
+        }
+      }
+
+      @keyframes slideDown {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-dark text-white overflow-x-hidden font-inter">
+    <!-- Floating Shapes Background -->
+    <div class="fixed inset-0 pointer-events-none">
+      <div class="floating-shape"></div>
+      <div class="floating-shape"></div>
+      <div class="floating-shape"></div>
+    </div>
+
+    <!-- Particles -->
+    <div class="fixed inset-0 pointer-events-none" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-nav">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4 relative">
+          <div class="text-2xl font-bold text-gradient">Pablo MSJ</div>
+          <div class="hidden md:flex space-x-8">
+            <a href="#inicio" class="text-gray-300 hover:text-white transition-all duration-300 relative group">
+              Inicio
+              <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#experiencia" class="text-gray-300 hover:text-white transition-all duration-300 relative group">
+              Experiencia
+              <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#proyectos" class="text-gray-300 hover:text-white transition-all duration-300 relative group">
+              Proyectos
+              <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#tecnologias" class="text-gray-300 hover:text-white transition-all duration-300 relative group">
+              Tecnologías
+              <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#contacto" class="text-gray-300 hover:text-white transition-all duration-300 relative group">
+              Contacto
+              <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+            </a>
+          </div>
+          <button class="md:hidden text-white" id="menu-btn">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+          <!-- Menú móvil -->
+          <div class="mobile-menu" id="mobile-menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#tecnologias">Tecnologías</a>
+            <a href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center bg-mesh relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-dark/80 via-dark/50 to-transparent"></div>
+
+      <!-- Hero Content -->
+      <div class="relative z-10 text-center max-w-5xl mx-auto px-6">
+        <div class="animate-slide-down">
+          <h1 class="text-6xl md:text-8xl font-black mb-6 leading-tight">
+            <span class="text-gradient">Pablo</span>
+            <br />
+            <span class="text-white">Martínez</span>
+          </h1>
+        </div>
+
+        <div class="animate-fade-in animation-delay-300">
+          <p class="text-xl md:text-2xl text-gray-300 mb-4 font-light">Desarrollador Full Stack</p>
+          <p class="text-lg md:text-xl text-gray-400 mb-12 font-light max-w-2xl mx-auto">Creando experiencias digitales extraordinarias con código limpio y diseño innovador</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-6 justify-center animate-scale-in animation-delay-600">
+          <a href="#proyectos" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"> Explorar Proyectos </a>
+          <a href="#contacto" class="btn-secondary px-8 py-4 rounded-full font-semibold text-lg"> Hablemos </a>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce-slow">
+        <div class="flex flex-col items-center">
+          <span class="text-sm text-gray-400 mb-2">Scroll</span>
+          <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="inicio" class="py-24 bg-dark relative">
+      <div class="section-divider"></div>
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <h2 class="text-5xl md:text-6xl font-bold text-gradient-secondary mb-6">Sobre Mí</h2>
+          <p class="text-xl text-gray-400 max-w-3xl mx-auto">Más de 7 años transformando ideas en realidades digitales</p>
+        </div>
+
+        <!-- ¿Quién soy? -->
+        <div class="glass-card rounded-2xl p-8 lg:p-12 hover-glow flex flex-col lg:flex-row items-center gap-8 lg:gap-12 mb-20">
+          <div class="w-full lg:w-2/5 flex-shrink-0 lg:order-1">
+            <div class="relative overflow-hidden rounded-xl">
+              <div class="w-full h-80 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center rounded-xl">
+                <div class="text-6xl">👨‍💻</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1 lg:text-left">
+            <h3 class="text-3xl lg:text-4xl font-bold mb-6 text-gradient-secondary">¿Quién soy?</h3>
+            <div class="text-gray-300 text-lg leading-relaxed mb-8">
+              <p class="mb-4">Mi experiencia incluye dominar tecnologías como <strong>Java, PHP, SQL</strong> y la creación de <strong>APIs RESTful</strong>. He trabajado con frameworks líderes como <strong>SpringBoot, Laravel y Angular</strong>.</p>
+              <p>Soy un <strong>solucionador de problemas proactivo</strong> y orientado a resultados, capaz de adaptarme rápidamente a nuevos entornos. Disfruto tanto el trabajo independiente como la colaboración en equipo para alcanzar objetivos de alta calidad.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ¿Qué busco? -->
+        <div class="glass-card rounded-2xl p-8 lg:p-12 hover-glow flex flex-col lg:flex-row-reverse items-center gap-8 lg:gap-12 mb-20">
+          <div class="w-full lg:w-2/5 flex-shrink-0 lg:order-2">
+            <div class="relative overflow-hidden rounded-xl">
+              <div class="w-full h-80 bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center rounded-xl">
+                <div class="text-6xl">🚀</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1 lg:text-left">
+            <h3 class="text-3xl lg:text-4xl font-bold mb-6 text-gradient-secondary">¿Qué busco?</h3>
+            <div class="text-gray-300 text-lg leading-relaxed mb-8">
+              <p class="mb-4">Busco <strong>oportunidades desafiantes</strong> que me permitan seguir creciendo profesionalmente y contribuir al éxito de <strong>proyectos innovadores</strong>.</p>
+              <p>Estoy abierto tanto a roles como <strong>desarrollador fullstack</strong> en proyectos complejos, como a posiciones de <strong>liderazgo tecnológico</strong> donde pueda aplicar mi experiencia en gestión de equipos.</p>
+            </div>
+            <div class="flex flex-wrap gap-4 justify-start">
+              <a href="https://www.linkedin.com/in/pablo-mart%C3%ADnez-san-jos%C3%A9-9bb24215a" target="_blank" class="btn-primary px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"> LinkedIn </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aptitudes -->
+        <div class="glass-card rounded-2xl p-8 lg:p-12 hover-glow text-center">
+          <h3 class="text-3xl lg:text-4xl font-bold mb-8 text-gradient-secondary">Aptitudes Clave</h3>
+          <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <span class="font-semibold">Desarrollo Fullstack</span>
+                  <span class="text-primary font-bold">95%</span>
+                </div>
+                <div class="w-full bg-dark-lighter rounded-full h-3">
+                  <div class="skill-bar" style="width: 95%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <span class="font-semibold">Desarrollo Web</span>
+                  <span class="text-primary font-bold">90%</span>
+                </div>
+                <div class="w-full bg-dark-lighter rounded-full h-3">
+                  <div class="skill-bar" style="width: 90%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <span class="font-semibold">Apps Móviles</span>
+                  <span class="text-primary font-bold">92%</span>
+                </div>
+                <div class="w-full bg-dark-lighter rounded-full h-3">
+                  <div class="skill-bar" style="width: 92%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <span class="font-semibold">Trabajo bajo Presión</span>
+                  <span class="text-primary font-bold">93%</span>
+                </div>
+                <div class="w-full bg-dark-lighter rounded-full h-3">
+                  <div class="skill-bar" style="width: 93%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <span class="font-semibold">Gestión de Proyectos</span>
+                  <span class="text-primary font-bold">97%</span>
+                </div>
+                <div class="w-full bg-dark-lighter rounded-full h-3">
+                  <div class="skill-bar" style="width: 97%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <span class="font-semibold">Liderazgo de Equipos</span>
+                  <span class="text-primary font-bold">85%</span>
+                </div>
+                <div class="w-full bg-dark-lighter rounded-full h-3">
+                  <div class="skill-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <span class="font-semibold">Desarrollo Multiplataforma</span>
+                  <span class="text-primary font-bold">88%</span>
+                </div>
+                <div class="w-full bg-dark-lighter rounded-full h-3">
+                  <div class="skill-bar" style="width: 88%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <span class="font-semibold">Atención al Cliente</span>
+                  <span class="text-primary font-bold">89%</span>
+                </div>
+                <div class="w-full bg-dark-lighter rounded-full h-3">
+                  <div class="skill-bar" style="width: 89%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experiencia" class="py-24 bg-dark-light relative">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <h2 class="text-5xl md:text-6xl font-bold text-gradient mb-6">Experiencia</h2>
+          <p class="text-xl text-gray-400 max-w-3xl mx-auto">Un recorrido profesional lleno de desafíos y logros</p>
+        </div>
+
+        <!-- +7 Años de experiencia -->
+        <div class="glass-card rounded-2xl p-8 lg:p-12 hover-glow flex flex-col lg:flex-row items-center gap-8 lg:gap-12 mb-16">
+          <div class="flex-1 lg:text-left">
+            <h3 class="text-3xl lg:text-4xl font-bold mb-6 text-gradient-secondary">+7 Años de Experiencia</h3>
+            <div class="text-gray-300 text-lg leading-relaxed mb-8">
+              <p class="mb-4">Tengo una <strong>sólida experiencia de 7 años</strong> en el campo de la tecnología, enfrentándome a una amplia gama de proyectos desde <strong>pequeñas iniciativas hasta grandes desarrollos empresariales</strong>.</p>
+              <p class="mb-4">Mi trayectoria me ha permitido trabajar en <strong>equipos multidisciplinarios</strong>, manteniéndome actualizado con las últimas tendencias tecnológicas y perfeccionando mis habilidades técnicas y blandas.</p>
+              <p>Estoy comprometido con la <strong>mejora continua</strong> y ansioso por seguir enfrentando nuevos desafíos.</p>
+            </div>
+          </div>
+          <div class="w-full lg:w-2/5 flex-shrink-0">
+            <div class="relative overflow-hidden rounded-xl">
+              <div class="w-full h-80 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center rounded-xl">
+                <div class="text-6xl">⏱️</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desarrollo Full Stack -->
+        <div class="glass-card rounded-2xl p-8 lg:p-12 hover-glow flex flex-col lg:flex-row-reverse items-center gap-8 lg:gap-12 mb-16">
+          <div class="w-full lg:w-2/5 flex-shrink-0">
+            <div class="relative overflow-hidden rounded-xl">
+              <div class="w-full h-80 bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center rounded-xl">
+                <div class="text-6xl">💻</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1 lg:text-left">
+            <h3 class="text-3xl lg:text-4xl font-bold mb-6 text-gradient-secondary">Desarrollo Full Stack</h3>
+            <div class="text-gray-300 text-lg leading-relaxed mb-8">
+              <p class="mb-4">Especializado en <strong>desarrollo web completo</strong> con dominio tanto del <strong>Front-End como Back-End</strong>. Experiencia en crear interfaces atractivas con <strong>HTML5, CSS3, JavaScript</strong> y frameworks como <strong>Angular y React</strong>.</p>
+              <p class="mb-4">En el backend, trabajo con <strong>Java (SpringBoot), PHP (Laravel), APIs RESTful</strong> y bases de datos <strong>SQL</strong>. También desarrollo <strong>aplicaciones móviles</strong> para Android e iOS.</p>
+              <p>Mi enfoque se centra en crear <strong>experiencias de usuario excepcionales</strong> con arquitecturas robustas y escalables.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Liderazgo y Gestión -->
+        <div class="glass-card rounded-2xl p-8 lg:p-12 hover-glow flex flex-col lg:flex-row items-center gap-8 lg:gap-12 mb-16">
+          <div class="flex-1 lg:text-left">
+            <h3 class="text-3xl lg:text-4xl font-bold mb-6 text-gradient-secondary">Liderazgo y Gestión de Proyectos</h3>
+            <div class="text-gray-300 text-lg leading-relaxed mb-8">
+              <p class="mb-4">Experiencia liderando <strong>equipos multidisciplinarios</strong> en proyectos desafiantes, fomentando un ambiente de trabajo <strong>colaborativo, inclusivo y orientado a resultados</strong>.</p>
+              <p class="mb-4">Especializado en <strong>gestión de proyectos tecnológicos</strong> con enfoque en comunicación efectiva, delegación de tareas y desarrollo personal del equipo.</p>
+              <p>Mi meta es crear un <strong>ambiente de trabajo positivo</strong> donde cada miembro alcance su máximo potencial.</p>
+            </div>
+          </div>
+          <div class="w-full lg:w-2/5 flex-shrink-0">
+            <div class="relative overflow-hidden rounded-xl">
+              <div class="w-full h-80 bg-gradient-to-br from-secondary/20 to-accent/20 flex items-center justify-center rounded-xl">
+                <div class="text-6xl">👨‍💼</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Administración Pública y Proyectos Privados -->
+        <div class="glass-card rounded-2xl p-8 lg:p-12 hover-glow text-center">
+          <h3 class="text-3xl lg:text-4xl font-bold mb-8 text-gradient-secondary">Sectores de Experiencia</h3>
+          <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="space-y-4">
+              <div class="text-4xl mb-4">🏛️</div>
+              <h4 class="text-xl font-bold text-primary mb-4">Administración Pública</h4>
+              <p class="text-gray-300 text-sm">Desarrollo de soluciones para diferentes niveles de gobierno. Sistemas de gestión interna y plataformas de servicio ciudadano que mejoran la eficiencia y transparencia.</p>
+            </div>
+            <div class="space-y-4">
+              <div class="text-4xl mb-4">🏢</div>
+              <h4 class="text-xl font-bold text-primary mb-4">Proyectos Privados</h4>
+              <p class="text-gray-300 text-sm">Colaboración con empresas de diferentes sectores, desde startups hasta grandes corporaciones. Desarrollo de software, implementación de sistemas y consultoría tecnológica.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="py-24 bg-dark relative">
+      <div class="section-divider"></div>
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <h2 class="text-5xl md:text-6xl font-bold text-gradient-secondary mb-6">Proyectos Destacados</h2>
+          <p class="text-xl text-gray-400 max-w-3xl mx-auto">Soluciones innovadoras que demuestran mi experiencia técnica</p>
+        </div>
+
+        <!-- Proyectos destacados estáticos para SEO -->
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mb-16">
+          <!-- ScopeJS -->
+          <div class="glass-card rounded-xl overflow-hidden hover-glow">
+            <div class="h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
+              <div style="background-color: #667eea" class="w-24 h-24 bg-white rounded-lg flex items-center justify-center">
+                <span class="text-4xl font-bold">S</span>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-3 text-gradient-secondary">ScopeJS - Framework Reactivo</h3>
+              <p class="text-gray-400 text-sm leading-relaxed mb-4"><strong>Librería JavaScript reactiva</strong> para crear componentes web con máximo rendimiento. Permite desarrollo con arquitectura basada en componentes sin frameworks pesados.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-primary/20 text-primary px-3 py-1 rounded-full text-xs font-medium">JavaScript</span>
+                <span class="bg-secondary/20 text-secondary px-3 py-1 rounded-full text-xs font-medium">Componentes</span>
+                <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs font-medium">Reactivo</span>
+              </div>
+              <div class="flex gap-2">
+                <a href="https://scopejs.pablomsj.com" target="_blank" class="btn-primary px-4 py-2 rounded-full text-xs font-semibold"> Documentación </a>
+                <a href="https://github.com/PabloTheBlink/ScopeJS" target="_blank" class="btn-secondary px-4 py-2 rounded-full text-xs font-semibold"> GitHub </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- FlashyJS -->
+          <div class="glass-card rounded-xl overflow-hidden hover-glow">
+            <div class="h-48 bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center">
+              <div style="background-color: #8b5cf6" class="w-24 h-24 bg-white rounded-lg flex items-center justify-center">
+                <span class="text-4xl font-bold text-white">F</span>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-3 text-gradient-secondary">FlashyJS - Notificaciones Elegantes</h3>
+              <p class="text-gray-400 text-sm leading-relaxed mb-4"><strong>Librería de notificaciones JavaScript</strong> elegante y personalizable. Múltiples tipos, posiciones, animaciones y soporte para temas claro/oscuro sin dependencias.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs font-medium">JavaScript</span>
+                <span class="bg-primary/20 text-primary px-3 py-1 rounded-full text-xs font-medium">Notificaciones</span>
+                <span class="bg-secondary/20 text-secondary px-3 py-1 rounded-full text-xs font-medium">NPM</span>
+              </div>
+              <div class="flex gap-2">
+                <a href="https://flashyjs.pablomsj.com" target="_blank" class="btn-primary px-4 py-2 rounded-full text-xs font-semibold">Documentación</a>
+                <a href="https://github.com/pablotheblink/FlashyJS" target="_blank" class="btn-secondary px-4 py-2 rounded-full text-xs font-semibold"> GitHub </a>
+
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7338648068386447361/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A7338648068386447361%2C7339675501772398592)&dashCommentUrn=urn%3Ali%3Afsd_comment%3A(7339675501772398592%2Curn%3Ali%3Aactivity%3A7338648068386447361)" target="_blank" class="btn-secondary px-4 py-2 rounded-full text-xs font-semibold"> LinkedIn </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stack tecnológico destacado -->
+        <div class="glass-card rounded-2xl p-8 lg:p-12 text-center">
+          <h3 class="text-3xl lg:text-4xl font-bold mb-8 text-gradient-secondary">Stack Tecnológico Principal</h3>
+          <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6 max-w-4xl mx-auto">
+            <div class="flex flex-col items-center space-y-2">
+              <div class="text-4xl">☕</div>
+              <span class="text-sm font-semibold text-primary">Java</span>
+              <span class="text-xs text-gray-400">SpringBoot</span>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <div class="text-4xl">🐘</div>
+              <span class="text-sm font-semibold text-primary">PHP</span>
+              <span class="text-xs text-gray-400">Laravel</span>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <div class="text-4xl">⚡</div>
+              <span class="text-sm font-semibold text-primary">JavaScript</span>
+              <span class="text-xs text-gray-400">ES6+</span>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <div class="text-4xl">🅰️</div>
+              <span class="text-sm font-semibold text-primary">Angular</span>
+              <span class="text-xs text-gray-400">Framework</span>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <div class="text-4xl">🗄️</div>
+              <span class="text-sm font-semibold text-primary">SQL</span>
+              <span class="text-xs text-gray-400">Bases de Datos</span>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <div class="text-4xl">🔌</div>
+              <span class="text-sm font-semibold text-primary">APIs REST</span>
+              <span class="text-xs text-gray-400">Servicios Web</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="tecnologias" class="py-24 bg-dark-light relative">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <h2 class="text-5xl md:text-6xl font-bold text-gradient mb-6">Tecnologías</h2>
+          <p class="text-xl text-gray-400 max-w-3xl mx-auto">Herramientas y tecnologías que domino</p>
+        </div>
+
+        <!-- Tecnologías principales estáticas para SEO -->
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mb-16">
+          <!-- JavaScript -->
+          <div class="glass-card rounded-xl p-6 hover-glow tech-card group">
+            <div class="flex items-center mb-4">
+              <div class="tech-icon mr-4">⚡</div>
+              <h3 class="text-xl font-bold text-gradient-secondary group-hover:text-gradient transition-all">JavaScript</h3>
+            </div>
+            <div class="text-gray-400 text-sm leading-relaxed"><strong>Lenguaje de programación versátil</strong> para desarrollo web. Utilizado tanto en cliente como servidor con Node.js. Especializado en crear interactividad y aplicaciones web modernas.</div>
+          </div>
+
+          <!-- Java -->
+          <div class="glass-card rounded-xl p-6 hover-glow tech-card group">
+            <div class="flex items-center mb-4">
+              <div class="tech-icon mr-4">☕</div>
+              <h3 class="text-xl font-bold text-gradient-secondary group-hover:text-gradient transition-all">Java</h3>
+            </div>
+            <div class="text-gray-400 text-sm leading-relaxed"><strong>Lenguaje orientado a objetos</strong> robusto y escalable. Experiencia en aplicaciones empresariales, Android y sistemas de alto rendimiento con SpringBoot.</div>
+          </div>
+
+          <!-- PHP -->
+          <div class="glass-card rounded-xl p-6 hover-glow tech-card group">
+            <div class="flex items-center mb-4">
+              <div class="tech-icon mr-4">🐘</div>
+              <h3 class="text-xl font-bold text-gradient-secondary group-hover:text-gradient transition-all">PHP</h3>
+            </div>
+            <div class="text-gray-400 text-sm leading-relaxed"><strong>Desarrollo web dinámico</strong> con integración de bases de datos. Especializado en Laravel para crear aplicaciones web robustas y escalables.</div>
+          </div>
+
+          <!-- Angular -->
+          <div class="glass-card rounded-xl p-6 hover-glow tech-card group">
+            <div class="flex items-center mb-4">
+              <div class="tech-icon mr-4">🅰️</div>
+              <h3 class="text-xl font-bold text-gradient-secondary group-hover:text-gradient transition-all">Angular</h3>
+            </div>
+            <div class="text-gray-400 text-sm leading-relaxed"><strong>Framework de Google</strong> para aplicaciones web SPA. Experiencia en desarrollo de aplicaciones empresariales complejas con TypeScript.</div>
+          </div>
+
+          <!-- SQL -->
+          <div class="glass-card rounded-xl p-6 hover-glow tech-card group">
+            <div class="flex items-center mb-4">
+              <div class="tech-icon mr-4">🗄️</div>
+              <h3 class="text-xl font-bold text-gradient-secondary group-hover:text-gradient transition-all">SQL</h3>
+            </div>
+            <div class="text-gray-400 text-sm leading-relaxed"><strong>Gestión de bases de datos</strong> relacionales. Experiencia en MySQL, PostgreSQL y optimización de consultas para sistemas de información.</div>
+          </div>
+
+          <!-- APIs REST -->
+          <div class="glass-card rounded-xl p-6 hover-glow tech-card group">
+            <div class="flex items-center mb-4">
+              <div class="tech-icon mr-4">🔌</div>
+              <h3 class="text-xl font-bold text-gradient-secondary group-hover:text-gradient transition-all">APIs REST</h3>
+            </div>
+            <div class="text-gray-400 text-sm leading-relaxed"><strong>Arquitectura de servicios web</strong> escalables. Diseño e implementación de APIs para comunicación cliente-servidor eficiente.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Radio Section -->
+    <section id="radio" class="py-12 md:py-24 bg-dark relative">
+      <div class="section-divider"></div>
+      <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+        <div class="text-center mb-12 md:mb-20">
+          <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gradient-secondary mb-4 md:mb-6">Radio</h2>
+          <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto px-4">Mi espacio musical personal</p>
+        </div>
+        <div id="radio-content" class="px-4 md:px-0">
+          <audio controls class="w-full max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl h-16 sm:h-20 md:h-24 mx-auto bg-dark rounded-lg shadow-lg p-2 sm:p-3 md:p-4" src="https://pablomsj.com/radio.mp3"></audio>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-24 bg-mesh relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-dark/80 via-dark/60 to-transparent"></div>
+      <div class="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center">
+        <h2 class="text-5xl md:text-6xl font-bold text-gradient mb-8">Conectemos</h2>
+        <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">¿Tienes un proyecto en mente? Me encantaría ser parte de tu próxima gran idea</p>
+        <div class="flex flex-col sm:flex-row gap-6 justify-center">
+          <a href="https://www.linkedin.com/in/pablo-mart%C3%ADnez-san-jos%C3%A9-9bb24215a" target="_blank" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center space-x-3 group">
+            <span>LinkedIn</span>
+            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+          </a>
+          <a href="mailto:pabloextreme27@gmail.com" class="btn-secondary px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center space-x-3 group">
+            <span>Email</span>
+            <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-12 border-t border-dark-lighter">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center">
+          <div class="text-2xl font-bold text-gradient">Pablo MSJ</div>
+          <p class="text-gray-400 mb-6">Desarrollador Full Stack • Innovador Tecnológico</p>
+          <div class="flex justify-center space-x-6 mb-8">
+            <a href="#" class="text-gray-400 hover:text-primary transition-colors">
+              <span class="sr-only">GitHub</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-primary transition-colors">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+          </div>
+          <p class="text-gray-500 text-sm">© 2025 Pablo Martínez. Creado con pasión y mucho café ☕</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module">
+      // Funcionalidad del menú móvil
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      let isMenuOpen = false;
+
+      menuBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        toggleMenu();
+      });
+
+      function toggleMenu() {
+        isMenuOpen = !isMenuOpen;
+        if (isMenuOpen) {
+          mobileMenu.classList.add("active");
+        } else {
+          mobileMenu.classList.remove("active");
+        }
+      }
+
+      // Cerrar menú al hacer clic en un enlace
+      mobileMenu.addEventListener("click", function (e) {
+        if (e.target.tagName === "A") {
+          toggleMenu();
+        }
+      });
+
+      // Cerrar menú al hacer clic fuera
+      document.addEventListener("click", function (e) {
+        if (isMenuOpen && !menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+          toggleMenu();
+        }
+      });
+
+      // Prevenir zoom en elementos específicos
+      document.addEventListener(
+        "dblclick",
+        function (e) {
+          e.preventDefault();
+        },
+        { passive: false }
+      );
+
+      // Create particles
+      function createParticles() {
+        const particlesContainer = document.getElementById("particles");
+        for (let i = 0; i < 20; i++) {
+          setTimeout(() => {
+            const particle = document.createElement("div");
+            particle.className = "particle";
+            particle.style.left = Math.random() * 100 + "%";
+            particle.style.animationDelay = Math.random() * 15 + "s";
+            particle.style.animationDuration = Math.random() * 10 + 15 + "s";
+            particlesContainer.appendChild(particle);
+          }, i * 300);
+        }
+      }
+
+      createParticles();
+    </script>
+  </body>
+</html>
