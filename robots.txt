@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# Archivos importantes para SEO
+Allow: /sitemap.xml
+Allow: /index.html
+Allow: /icon.png
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.svg
+
+# Evitar indexar archivos innecesarios
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.log
+Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://pablomsj.com/sitemap.xml
+
+# Crawl-delay para ser considerado con los bots
+Crawl-delay: 1
+
+# Configuración específica para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Configuración específica para Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Configuración específica para Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1

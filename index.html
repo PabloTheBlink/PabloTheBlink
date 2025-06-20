@@ -7,8 +7,31 @@
     <meta name="description" content="Desarrollador Full Stack con +7 años sobreviviendo al caos del código. Especialista en Java, PHP, Angular y en hacer que equipos funcionen como orquesta (o al menos como banda de garage decente). ¡Acepto desafíos imposibles!" />
     <meta name="keywords" content="desarrollador full stack, mago del código, programador loco, Java, PHP, SQL, SpringBoot, Laravel, Angular, desarrollo web, aplicaciones móviles, líder técnico ninja, APIs REST, Pablo The Blink" />
     <meta name="author" content="Pablo Martínez San José" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <link rel="canonical" href="https://pablomsj.com" />
+    <link rel="sitemap" type="application/xml" href="sitemap.xml" />
+
+    <!-- Breadcrumbs Structure -->
+    <meta name="breadcrumb" content="Inicio > Portfolio > Pablo Martínez" />
+
+    <!-- Additional SEO -->
+    <meta name="classification" content="Portfolio, Desarrollo Web, Programación" />
+    <meta name="category" content="Tecnología, Desarrollo Web, Programación" />
+    <meta name="coverage" content="Worldwide" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Geo targeting -->
+    <meta name="geo.region" content="ES" />
+    <meta name="geo.country" content="España" />
+    <meta name="ICBM" content="40.416775, -3.703790" />
+
+    <!-- Professional Keywords -->
+    <meta name="skills" content="Java, PHP, SpringBoot, Laravel, Angular, React, Next.js, JavaScript, TypeScript, SQL, MySQL, PostgreSQL, API REST, Git, Docker, Kubernetes" />
+    <meta name="experience" content="7+ años desarrollo full stack" />
+    <meta name="specialization" content="Desarrollo Full Stack, Liderazgo Técnico, Arquitectura de Software" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8696876033859702" crossorigin="anonymous"></script>
     <meta name="google-adsense-account" content="ca-pub-8696876033859702" />
     <!-- Open Graph / Facebook -->
@@ -25,31 +48,93 @@
     <meta property="twitter:description" content="Desarrollador Full Stack con +7 años convirtiendo ideas locas en realidades digitales. Especialista en Java, PHP, Angular y en resolver problemas imposibles con estilo." />
     <meta property="twitter:image" content="https://pablomsj.com/assets/img/developer-1.webp" />
 
-    <!-- Structured Data -->
+    <!-- Structured Data - Perfil Personal -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Pablo Martínez San José",
         "alternateName": "Pablo MSJ",
-        "jobTitle": "Mago del Código Full Stack",
-        "description": "Desarrollador Full Stack con más de 7 años convirtiendo café en código y problemas imposibles en soluciones que funcionan (la mayoría de las veces). Especialista en tecnologías como Java, PHP, SQL y frameworks como SpringBoot, Laravel y Angular",
+        "jobTitle": "Desarrollador Full Stack - Mago del Código",
+        "description": "Desarrollador Full Stack con más de 7 años convirtiendo café en código y problemas imposibles en soluciones que funcionan. Especialista en Java, PHP, Angular, SpringBoot, Laravel y APIs REST.",
         "url": "https://pablomsj.com",
-        "sameAs": ["https://www.linkedin.com/in/pablo-martínez-san-josé-9bb24215a", "https://github.com/PabloTheBlink"],
-        "knowsAbout": ["JavaScript", "Java", "PHP", "SQL", "Angular", "SpringBoot", "Laravel", "HTML5", "CSS3", "Git", "API REST", "React", "Next.js", "Desarrollo Web", "Desarrollo Móvil", "Liderazgo de Equipos", "Gestión de Proyectos"],
+        "image": "https://pbs.twimg.com/profile_images/1817974469077385217/0b1IN-iw_400x400.jpg",
+        "sameAs": ["https://www.linkedin.com/in/pablo-martínez-san-josé-9bb24215a", "https://github.com/PabloTheBlink", "https://twitter.com/pablotheblink"],
+        "knowsAbout": ["JavaScript", "Java", "PHP", "SQL", "Angular", "SpringBoot", "Laravel", "HTML5", "CSS3", "Git", "API REST", "React", "Next.js", "Desarrollo Web", "Desarrollo Móvil", "Liderazgo de Equipos", "Gestión de Proyectos", "Arquitectura de Software"],
         "hasOccupation": {
           "@type": "Occupation",
           "name": "Desarrollador Full Stack",
-          "occupationLocation": "España",
-          "skills": "Java, PHP, SQL, JavaScript, Angular, SpringBoot, Laravel"
+          "occupationLocation": {
+            "@type": "Place",
+            "name": "España"
+          },
+          "skills": "Java, PHP, SQL, JavaScript, Angular, SpringBoot, Laravel, React, Next.js",
+          "experienceRequirements": "7+ años de experiencia"
+        },
+        "alumniOf": "Ingeniería en Desarrollo de Software",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance Developer"
+        }
+      }
+    </script>
+
+    <!-- Structured Data - Sitio Web -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Pablo Martínez - Mago del Código",
+        "alternateName": "Pablo MSJ Portfolio",
+        "url": "https://pablomsj.com",
+        "description": "Portfolio profesional de Pablo Martínez, desarrollador Full Stack con +7 años de experiencia en Java, PHP, Angular y tecnologías web modernas.",
+        "inLanguage": "es-ES",
+        "author": {
+          "@type": "Person",
+          "name": "Pablo Martínez San José"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://pablomsj.com/#buscar?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    <!-- Structured Data - Organización/Profesional -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Pablo MSJ - Servicios de Desarrollo Full Stack",
+        "description": "Servicios profesionales de desarrollo web, aplicaciones móviles y consultoría técnica. Especialista en Java, PHP, Angular y arquitecturas modernas.",
+        "url": "https://pablomsj.com",
+        "logo": "https://pablomsj.com/icon.png",
+        "image": "https://pbs.twimg.com/profile_images/1817974469077385217/0b1IN-iw_400x400.jpg",
+        "telephone": "+34-XXX-XXX-XXX",
+        "email": "contacto@pablomsj.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "ES",
+          "addressRegion": "España"
+        },
+        "serviceType": ["Desarrollo Web Full Stack", "Desarrollo de APIs REST", "Aplicaciones Móviles", "Consultoría Técnica", "Liderazgo de Equipos"],
+        "areaServed": {
+          "@type": "Place",
+          "name": "España"
         }
       }
     </script>
 
     <link rel="icon" href="icon.png" type="image/png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="icon.png" />
 
     <!-- theme color -->
     <meta name="theme-color" content="#10192D" />
+    <meta name="msapplication-TileColor" content="#3b82f6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -303,6 +388,19 @@
         }
       }
 
+      /* Estilos para elementos ocultos pero accesibles para SEO */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
       /* Prevenir zoom en iOS */
       body,
       input,
@@ -432,52 +530,52 @@
     <div class="fixed inset-0 pointer-events-none" id="particles"></div>
 
     <!-- Navigation -->
-    <nav class="fixed top-0 w-full z-50 glass-nav">
+    <nav class="fixed top-0 w-full z-50 glass-nav" aria-label="Navegación principal">
       <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex justify-between items-center py-4 relative">
           <div class="text-2xl font-bold text-gradient">Pablo MSJ</div>
-          <div class="hidden md:flex space-x-8">
-            <a href="#inicio" class="text-gray-300 hover:text-white transition-all duration-300 relative group">
+          <div class="hidden md:flex space-x-8" role="menubar">
+            <a href="#inicio" class="text-gray-300 hover:text-white transition-all duration-300 relative group" role="menuitem">
               Inicio
               <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#experiencia" class="text-gray-300 hover:text-white transition-all duration-300 relative group">
+            <a href="#experiencia" class="text-gray-300 hover:text-white transition-all duration-300 relative group" role="menuitem">
               Experiencia
               <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#proyectos" class="text-gray-300 hover:text-white transition-all duration-300 relative group">
+            <a href="#proyectos" class="text-gray-300 hover:text-white transition-all duration-300 relative group" role="menuitem">
               Proyectos
               <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#contacto" class="text-gray-300 hover:text-white transition-all duration-300 relative group">
+            <a href="#contacto" class="text-gray-300 hover:text-white transition-all duration-300 relative group" role="menuitem">
               Contacto
               <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
             </a>
           </div>
-          <button class="md:hidden text-white" id="menu-btn">
+          <button class="md:hidden text-white" id="menu-btn" aria-label="Abrir menú de navegación">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
           <!-- Menú móvil -->
-          <div class="mobile-menu" id="mobile-menu">
-            <a href="#inicio">Inicio</a>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
+          <div class="mobile-menu" id="mobile-menu" role="menu">
+            <a href="#inicio" role="menuitem">Inicio</a>
+            <a href="#experiencia" role="menuitem">Experiencia</a>
+            <a href="#proyectos" role="menuitem">Proyectos</a>
+            <a href="#contacto" role="menuitem">Contacto</a>
           </div>
         </div>
       </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="min-h-screen flex items-center justify-center bg-mesh relative overflow-hidden">
+    <section class="min-h-screen flex items-center justify-center bg-mesh relative overflow-hidden" itemscope itemtype="https://schema.org/Person">
       <div class="absolute inset-0 bg-gradient-to-br from-dark/80 via-dark/50 to-transparent"></div>
 
       <!-- Hero Content -->
-      <div class="relative z-10 text-center max-w-5xl mx-auto px-6">
+      <article class="relative z-10 text-center max-w-5xl mx-auto px-6">
         <div class="animate-slide-down">
-          <h1 class="text-6xl md:text-8xl font-black mb-6 leading-tight">
+          <h1 class="text-6xl md:text-8xl font-black mb-6 leading-tight" itemprop="name">
             <span class="text-gradient">Pablo</span>
             <br />
             <span class="text-white">Martínez</span>
@@ -487,22 +585,22 @@
         <!-- Foto de perfil -->
         <div class="animate-fade-in animation-delay-200 mb-8">
           <div class="relative inline-block">
-            <img src="https://pbs.twimg.com/profile_images/1817974469077385217/0b1IN-iw_400x400.jpg" alt="Pablo Martínez - Mago del Código" class="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto border-4 border-primary shadow-2xl hover:scale-105 transition-all duration-300 hover:shadow-primary/50" />
+            <img src="https://pbs.twimg.com/profile_images/1817974469077385217/0b1IN-iw_400x400.jpg" alt="Pablo Martínez - Desarrollador Full Stack y Mago del Código" class="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto border-4 border-primary shadow-2xl hover:scale-105 transition-all duration-300 hover:shadow-primary/50" itemprop="image" />
             <!-- Efectos brillantes alrededor de la foto -->
             <div class="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-purple-500/20 blur-xl animate-pulse"></div>
           </div>
         </div>
 
         <div class="animate-fade-in animation-delay-300">
-          <p class="text-xl md:text-2xl text-gray-300 mb-4 font-light">Mago del Código Full Stack 🧙‍♂️</p>
-          <p class="text-lg md:text-xl text-gray-400 mb-12 font-light max-w-2xl mx-auto">Convirtiendo café en código épico y problemas imposibles en "¿cómo no se me ocurrió antes?" desde 2018 ☕➡️💻</p>
+          <p class="text-xl md:text-2xl text-gray-300 mb-4 font-light" itemprop="jobTitle">Desarrollador Full Stack - Mago del Código 🧙‍♂️</p>
+          <p class="text-lg md:text-xl text-gray-400 mb-12 font-light max-w-2xl mx-auto" itemprop="description">Convirtiendo café en código épico y problemas imposibles en "¿cómo no se me ocurrió antes?" desde 2018 ☕➡️💻</p>
         </div>
 
         <div class="flex flex-col sm:flex-row gap-6 justify-center animate-scale-in animation-delay-600">
           <a href="#proyectos" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"> Ver Mis Travesuras Digitales </a>
           <a href="#contacto" class="btn-secondary px-8 py-4 rounded-full font-semibold text-lg"> ¡Charlemos! </a>
         </div>
-      </div>
+      </article>
 
       <!-- Scroll Indicator -->
       <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce-slow">
@@ -516,13 +614,30 @@
     </section>
 
     <!-- About Section -->
-    <section id="inicio" class="py-24 bg-dark relative">
+    <section id="inicio" class="py-24 bg-dark relative" itemscope itemtype="https://schema.org/AboutPage">
       <div class="section-divider"></div>
+
+      <!-- Breadcrumbs (invisible pero para SEO) -->
+      <nav aria-label="breadcrumb" class="sr-only">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a itemprop="item" href="https://pablomsj.com">
+              <span itemprop="name">Inicio</span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Sobre Mí</span>
+            <meta itemprop="position" content="2" />
+          </li>
+        </ol>
+      </nav>
+
       <div class="max-w-7xl mx-auto px-6 lg:px-8">
-        <div class="text-center mb-20">
-          <h2 class="text-5xl md:text-6xl font-bold text-gradient-secondary mb-6">Sobre Mí</h2>
-          <p class="text-xl text-gray-400 max-w-3xl mx-auto">Más de 7 años sobreviviendo al caos del código y saliendo victorioso 😎</p>
-        </div>
+        <header class="text-center mb-20">
+          <h2 class="text-5xl md:text-6xl font-bold text-gradient-secondary mb-6" itemprop="headline">Sobre Mí</h2>
+          <p class="text-xl text-gray-400 max-w-3xl mx-auto" itemprop="description">Más de 7 años sobreviviendo al caos del código y saliendo victorioso 😎</p>
+        </header>
 
         <!-- ¿Quién soy? -->
         <div class="glass-card rounded-2xl p-8 lg:p-12 hover-glow flex flex-col lg:flex-row items-center gap-8 lg:gap-12 mb-20">

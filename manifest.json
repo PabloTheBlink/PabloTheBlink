@@ -1,0 +1,61 @@
+{
+  "name": "Pablo Martínez - Desarrollador Full Stack",
+  "short_name": "Pablo MSJ",
+  "description": "Portfolio profesional de Pablo Martínez, desarrollador Full Stack con +7 años de experiencia en Java, PHP, Angular y tecnologías web modernas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "business", "developer"],
+  "lang": "es-ES",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://pbs.twimg.com/profile_images/1817974469077385217/0b1IN-iw_400x400.jpg",
+      "sizes": "400x400",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Pablo Martínez - Desarrollador Full Stack"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver Proyectos",
+      "short_name": "Proyectos",
+      "description": "Ver mis proyectos y trabajos realizados",
+      "url": "/#proyectos",
+      "icons": [
+        {
+          "src": "icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contactar",
+      "short_name": "Contacto",
+      "description": "Ponte en contacto conmigo",
+      "url": "/#contacto",
+      "icons": [
+        {
+          "src": "icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
